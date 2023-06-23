@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            YouTube Clone
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="left_section">
+                <img src="Icons/hamburger-menu.svg" class="hamburger_menu">
+                <img src="Icons/youtube-logo.svg" class="YT_logo">
+            </div>
+            <div class="middle_section">
+                <input class="search_bar" type="text" placeholder="Search">
+                <button class="search_button">
+                    <img src="Icons/search.svg" class="search_icon">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice_search_button">
+                    <img src="Icons/voice-search-icon.svg" class="voice_search_icon">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right_section">
+                <div class="upload_icon_container">
+                    <img src="Icons/upload.svg" class="upload_icon">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="notifications_div">
+                    <img src="Icons/notifications.svg" class="notifications_icon">
+                    <div class="notifications_count">2</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img src="dps/my_dp.jpg" class="my_dp">
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar_link">
+                <img src="icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar_link">
+                <img src="icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar_link">
+                <img src="icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar_link">
+                <img src="icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar_link">
+                <img src="icons/youtube-music.svg">
+                <div>Youtube Music</div>
+            </div>
+            <div class="sidebar_link">
+                <img src="icons/library.svg">
+                <div>Library</div>
+            </div>
+        </div>
+
+        <div class="video_grid">
+            <div class="video_preview">
+                <div class="thumbnail_div">
+                    <img src="Thumbnails/1.webp" class="thumbnail">
+                    <div class="video_time">
+                        4:20
+                    </div>
+                </div>
+                <div class="dp_and_info">
+                    <div class="dp_div">
+                        <img src="dps/dp1.jpg" class="dp">
+                        <div class="channel_preview">
+                            <img src="dps/dp1.jpg" class="channel_preview_img">
+                            <div class="channel_and_subscribers">
+                                <div class="channel">Apple</div>
+                                <div class="subscribers">16.7M subscribers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=FT3ODSg1GFE" target="_blank" class="video_title_link">
+                            <p class="video_title">
+                                Introducing iPhone 14 Pro | Apple
+                            </p>
+                        </a>
+                        <p class="video_author">
+                            Apple
+                        </p>
+                        <p class="video_stats">
+                            12M views &#183; 1 day ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <div class="thumbnail_div">
+                    <img src="Thumbnails/2.webp" class="thumbnail">
+                    <div class="video_time">
+                        4:28
+                    </div>
+                </div>
+                <div class="dp_and_info">
+                    <div class="dp_div">
+                        <img src="dps/dp2.jpg" class="dp">
+                        <div class="channel_preview">
+                            <img src="dps/dp2.jpg" class="channel_preview_img">
+                            <div class="channel_and_subscribers">
+                                <div class="channel">SonyMusicIndiaVEVO</div>
+                                <div class="subscribers">43.6M subscribers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=g6fnFALEseI" target="_blank" class="video_title_link">
+                            <p class="video_title">
+                                Kesariya - Official Lyric | Brahmāstra | Ranbir, Alia, Pritam, Arijit Singh, Amitabh
+                            </p>
+                        </a>
+                        <p class="video_author">
+                            SonyMusicIndiaVEVO
+                        </p>
+                        <p class="video_stats">
+                            5.5M views &#183; 2 weeks ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <div class="thumbnail_div">
+                    <img src="Thumbnails/3.webp" class="thumbnail">
+                    <div class="video_time">
+                        30:07
+                    </div>
+                </div>
+                <div class="dp_and_info">
+                    <div class="dp_div">
+                        <img src="dps/dp3.jpg" class="dp">
+                        <div class="channel_preview">
+                            <img src="dps/dp3.jpg" class="channel_preview_img">
+                            <div class="channel_and_subscribers">
+                                <div class="channel">Scenic Scenes</div>
+                                <div class="subscribers">344K subscribers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=es4x5R-rV9s" target="_blank" class="video_title_link">
+                            <p class="video_title">
+                                Amazon 4k - The World’s Largest Tropical Rainforest Part 2 | Jungle Sounds | Scenic Relaxation Film
+                            </p>
+                        </a>
+                        <p class="video_author">
+                            Scenic Scenes
+                        </p>
+                        <p class="video_stats">
+                            16M views &#183; 7 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <div class="thumbnail_div">
+                    <img src="Thumbnails/4.webp" class="thumbnail">
+                    <div class="video_time">
+                        5:04
+                    </div>
+                </div>
+                <div class="dp_and_info">
+                    <div class="dp_div">
+                        <img src="dps/dp4.jpg" class="dp">
+                        <div class="channel_preview">
+                            <img src="dps/dp4.jpg" class="channel_preview_img">
+                            <div class="channel_and_subscribers">
+                                <div class="channel">Saregama Telugu</div>
+                                <div class="subscribers">2.19M subscribers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=o19q-7-nIyA" target="_blank" class="video_title_link">
+                            <p class="video_title">
+                                Neetho Unte Chalu - Video Song | Bimbisara | Nandamuri Kalyan Ram | M.M. Keeravani | Vassishta
+                            </p>
+                        </a>
+                        <p class="video_author">
+                            Saregama Telugu
+                        </p>
+                        <p class="video_stats">
+                            7.6M views &#183; 11 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <div class="thumbnail_div">
+                    <img src="Thumbnails/5.webp" class="thumbnail">
+                    <div class="video_time">
+                        32:15
+                    </div>
+                </div>
+                <div class="dp_and_info">
+                    <div class="dp_div">
+                        <img src="dps/dp5.jpg" class="dp">
+                        <div class="channel_preview">
+                            <img src="dps/dp5.jpg" class="channel_preview_img">
+                            <div class="channel_and_subscribers">
+                                <div class="channel">WWE</div>
+                                <div class="subscribers">91.3M subscribers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=xvFlPvL-KTQ" target="_blank" class="video_title_link">
+                            <p class="video_title">
+                                Roman Reigns vs. Brock Lesnar – Road to SummerSlam 2022: WWE Playlist
+                            </p>
+                        </a>
+                        <p class="video_author">
+                            WWE
+                        </p>
+                        <p class="video_stats">
+                            15M views &#183; 1 month ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <div class="thumbnail_div">
+                    <img src="Thumbnails/6.webp" class="thumbnail">
+                    <div class="video_time">
+                        1:19
+                    </div>
+                </div>
+                <div class="dp_and_info">
+                    <div class="dp_div">
+                        <img src="dps/dp6.jpg" class="dp">
+                        <div class="channel_preview">
+                            <img src="dps/dp6.jpg" class="channel_preview_img">
+                            <div class="channel_and_subscribers">
+                                <div class="channel">V6 News Telugu</div>
+                                <div class="subscribers">8.3M subscribers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=jyEGOi5OLeo" target="_blank" class="video_title_link">
+                            <p class="video_title">
+                                Clay Ganesh Idol Collapsed In Himayatnagar | V6 News
+                            </p>
+                        </a>
+                        <p class="video_author">
+                            V6 News Telugu
+                        </p>
+                        <p class="video_stats">
+                            1M views &#183; 1 day ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <div class="thumbnail_div">
+                    <img src="Thumbnails/7.jpg" class="thumbnail">
+                    <div class="video_time">
+                        9:14
+                    </div>
+                </div>
+                <div class="dp_and_info">
+                    <div class="dp_div">
+                        <img src="dps/dp7.jpg" class="dp">
+                        <div class="channel_preview">
+                            <img src="dps/dp7.jpg" class="channel_preview_img">
+                            <div class="channel_and_subscribers">
+                                <div class="channel">Marques Brownlee</div>
+                                <div class="subscribers">16.2M subscribers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=eNWG9KRAbCc" target="_blank" class="video_title_link">
+                            <p class="video_title">
+                                Apple Magic Keyboard: Floating iPad Pro?
+                            </p>
+                        </a>
+                        <p class="video_author">
+                            Marques Brownlee
+                        </p>
+                        <p class="video_stats">
+                            6.9M views &#183; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <div class="thumbnail_div">
+                    <img src="Thumbnails/8.webp" class="thumbnail">
+                    <div class="video_time">
+                        29:37
+                    </div>
+                </div>
+                <div class="dp_and_info">
+                    <div class="dp_div">
+                        <img src="dps/dp8.jpg" class="dp">
+                        <div class="channel_preview">
+                            <img src="dps/dp8.jpg" class="channel_preview_img">
+                            <div class="channel_and_subscribers">
+                                <div class="channel">SuperSimpleDev</div>
+                                <div class="subscribers">90.9K subscribers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=p1QU3kLFPdg" target="_blank" class="video_title_link">
+                            <p class="video_title">
+                                How to put an HTML website online (on the Internet) - 2022
+                            </p>
+                        </a>
+                        <p class="video_author">
+                            SuperSimpleDev
+                        </p>
+                        <p class="video_stats">
+                            130K views &#183; 5 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <div class="thumbnail_div">
+                    <img src="Thumbnails/9.webp" class="thumbnail">
+                    <div class="video_time">
+                        10:18
+                    </div>
+                </div>
+                <div class="dp_and_info">
+                    <div class="dp_div">
+                        <img src="dps/dp9.jpg" class="dp">
+                        <div class="channel_preview">
+                            <img src="dps/dp9.jpg" class="channel_preview_img">
+                            <div class="channel_and_subscribers">
+                                <div class="channel">Beyond Ideas</div>
+                                <div class="subscribers">156K subscribers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=JqKa6qyVYgg" target="_blank" class="video_title_link">
+                            <p class="video_title">
+                                The Science of Extreme Time Dilation in Interstellar
+                            </p>
+                        </a>
+                        <p class="video_author">
+                            Beyond Ideas
+                        </p>
+                        <p class="video_stats">
+                            5.7M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <div class="thumbnail_div">
+                    <img src="Thumbnails/10.webp" class="thumbnail">
+                    <div class="video_time">
+                        1:02
+                    </div>
+                </div>
+                <div class="dp_and_info">
+                    <div class="dp_div">
+                        <img src="dps/dp10.jpg" class="dp">
+                        <div class="channel_preview">
+                            <img src="dps/dp10.jpg" class="channel_preview_img">
+                            <div class="channel_and_subscribers">
+                                <div class="channel">Yashraj Mukhate</div>
+                                <div class="subscribers">5.04M subscribers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=UiiqUL0Adfc" target="_blank" class="video_title_link">
+                            <p class="video_title">
+                                Boring Day ft. Shehnaaz Gill | Dialogue with Beats | Yashraj Mukhate | Big Boss
+                            </p>
+                        </a>
+                        <p class="video_author">
+                            Yashraj Mukhate &#9834;
+                        </p>
+                        <p class="video_stats">
+                            18M views &#183; 8 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <div class="thumbnail_div">
+                    <img src="Thumbnails/11.webp" class="thumbnail">
+                    <div class="video_time">
+                        2:04
+                    </div>
+                </div>
+                <div class="dp_and_info">
+                    <div class="dp_div">
+                        <img src="dps/dp11.jpg" class="dp">
+                        <div class="channel_preview">
+                            <img src="dps/dp11.jpg" class="channel_preview_img">
+                            <div class="channel_and_subscribers">
+                                <div class="channel">HBO Max</div>
+                                <div class="subscribers">1.61M subscribers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=vtpK-D-5FCs" target="_blank" class="video_title_link">
+                            <p class="video_title">
+                                Friends: The Reunion | Phoebe Finds Out | HBO Max
+                            </p>
+                        </a>
+                        <p class="video_author">
+                            HBO Max
+                        </p>
+                        <p class="video_stats">
+                            4.4M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <div class="thumbnail_div">
+                    <img src="Thumbnails/12.webp" class="thumbnail">
+                    <div class="video_time">
+                        2:56
+                    </div>
+                </div>
+                <div class="dp_and_info">
+                    <div class="dp_div">
+                        <img src="dps/dp12.jpg" class="dp">
+                        <div class="channel_preview">
+                            <img src="dps/dp12.jpg" class="channel_preview_img">
+                            <div class="channel_and_subscribers">
+                                <div class="channel">Apna College</div>
+                                <div class="subscribers">2.73M subscribers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=Z557Ip9dhRc" target="_blank" class="video_title_link">
+                            <p class="video_title">
+                                What is 2.0? | Big Announcement for you all Coders ❤️
+                            </p>
+                        </a>
+                        <p class="video_author">
+                            Apna College
+                        </p>
+                        <p class="video_stats">
+                            243K views &#183; 21 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
